@@ -1,0 +1,14 @@
+Enter the following command to compile all the files in the folder src
+    $make compile
+
+Enter the following command to start erlang
+    $make start
+
+Enter the next module and method with the matrix
+    > gaussJordan:verificar([[1,2,4,2,2],[4,3,3,4,5],[1,2,2,5,2],[3,2,4,3,4]]).
+
+Result:
+    [[[1.0,0.0,0.0,0.0]|0.9473684210526316],
+     [[0.0,1.0,0.0,0.0]|0.105263157894737],
+     [[0.0,0.0,1.0,0.0]|0.1578947368421052],
+     [[0.0,0.0,0.0,1.0]|0.1052631578947368]]
