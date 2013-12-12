@@ -1,0 +1,22 @@
+GaussJordan  Version 1.0 28/11/2013
+
+GENERAL USAGE NOTES
+--------------------
+-The code was test in a OS X Version 10.7.5 
+___________________________________________________________
+                        GaussJordan
+__________________________________________________________
+1.- Download all the files.
+2.- Enter the command
+        $ make compile
+    to compile all the files.erl on the src folder
+3.- Enter the command 
+        $ make start
+    to access shell erlang
+4.- Enter 
+        > gaussJordan:verificar([matrix]).
+    "gaussJordan" is the principal module of this program, 
+    and "verificar" is the principal funtion inside "gaussJordan".
+    "matrix" refers refers to the matrix to be calculated, so the syntax is like:
+
+   gaussJordan:verificar([[1,2,4,2,2],[4,3,3,4,5],[1,2,2,5,2],[3,2,4,3,4]]).
