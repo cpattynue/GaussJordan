@@ -17,6 +17,8 @@ convertOne([H|_T],C,C,L) ->
 convertOne([_H|T],C,Cp,L) ->
     convertOne(T,C,Cp+1,L).
 
+foundPivot([0|_T],_C)->
+    io:format("La matriz no es valida~n");
 foundPivot([H|_T],0)->
     H;
 foundPivot([_H|T],C) ->
