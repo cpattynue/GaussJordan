@@ -10,4 +10,10 @@ valida(N,_L) when N =:= false->
     io:format("La matriz no es valida~n");
 
 valida(N,L) ->
-    imprimir:pass(gauss3:convert(L),N).
+    print(gauss3:convert(L),N).
+
+print([],_N) ->
+    io:format("La matriz no es valida~n");
+
+print(L,N) ->
+    imprimir:pass(L,N).
